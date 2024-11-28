@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persistent Preferences Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="title">Assignment by Sarvjot Singh</h1>
+        <div class="content">
+            <div class="item-list-section">
+                <h2>Item List</h2>
+                <ul id="item-list" class="list-style"></ul>
+            </div>
+            <div class="settings-section">
+                <h2>Settings Panel</h2>
+                <form id="settings-form">
+                    <div class="form-group">
+                        <label for="color-scheme" class="form-label">Choose Color Scheme:</label>
+                        <select id="color-scheme" class="form-select">
+                            <option value="theme-light">Light</option>
+                            <option value="theme-dark">Dark</option>
+                            <option value="theme-ocean">Ocean</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="style-option" class="form-label">Select List Style:</label>
+                        <select id="style-option" class="form-select">
+                            <option value="list-style-default">Default</option>
+                            <option value="list-style-numbered">Numbered</option>
+                            <option value="list-style-square">Square</option>
+                        </select>
+                    </div>
+                    <button type="button" id="apply-settings" class="btn">Apply Settings</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
